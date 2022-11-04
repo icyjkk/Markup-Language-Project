@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sneakers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="project.xsd">
+    <sneaker id="1">
+        <name sku="4280">
+            <model>Jordan 1</model>
+            <edition height="High">OG Chicago</edition>
+        </name>
+        <brands type="main">
+            <brand>Nike</brand>
+            <brand>Jordan</brand>
+        </brands>
+        <features>
+            <colors>
+                <color>red</color>
+                <color>white</color>
+                <color>black</color>
+            </colors>
+            <materials>
+                <material part="Toebox">leather</material>
+                <material part="Midsole">rubber</material>
+                <material part="Outsole">rubber</material>
+                <material part="Quarter">leather</material>
+                <material part="Tongue">nylon</material>
+                <material part="Heel">leather</material>
+            </materials>
+            <Date>
+                <day>16</day>
+                <month>09</month>
+                <year>1985</year>
+            </Date>
+            <limitedEdition>true</limitedEdition>
+            <colaboration>
+                <artist>
+                    <musician>no one</musician>
+                    <designer>no one</designer>
+                </artist>
+                <athlete sport="basketball">no one</athlete>
+                <brand>none</brand>
+            </colaboration>
+            <deadstock>true</deadstock>
+            <supply>20000</supply>
+            <madein country="China"/>
+            <PriceRetail currency="dollar">200</PriceRetail>
+        </features>
+        <prices>
+            <price size="40" currency="dollar">54600</price>
+            <price size="42" currency="dollar">63964</price>
+            <price size="42.5" currency="dollar">47600</price>
+        </prices>
+        <img src="https://images.stockx.com/images/Air-Jordan-1-OG-Chicago-1985-Product.jpg"/>
+    </sneaker>
+    <sneaker id="2">
+        <name sku="DM7866-140">
+            <model>Jordan 1</model>
+            <edition height="Low">Fragment X Travis Scott</edition>
+        </name>
+        <brands type="main">
+            <brand>Nike</brand>
+            <brand>Jordan</brand>
+        </brands>
+        <features>
+            <colors>
+                <color>black</color>
+                <color>white</color>
+                <color>blue</color>
+                <color>cream</color>
+            </colors>
+            <materials>
+                <material part="Toebox">leather</material>
+                <material part="Midsole">rubber</material>
+                <material part="Outsole">rubber</material>
+                <material part="Quarter">leather</material>
+                <material part="Tongue">nylon</material>
+                <material part="Heel">Synthetic leather</material>
+            </materials>
+            <Date>
+                <day>13</day>
+                <month>08</month>
+                <year>2021</year>
+            </Date>
+            <limitedEdition>true</limitedEdition>
+            <colaboration>
+                <artist>
+                    <musician>Traviss Scott</musician>
+                    <designer>no one</designer>
+                </artist>
+                <athlete sport="basketball">no one</athlete>
+                <brand>Fragment</brand>
+            </colaboration>
+            <deadstock>true</deadstock>
+            <supply>70000</supply>
+            <madein country="China"/>
+            <PriceRetail currency="dollar">200</PriceRetail>
+        </features>
+        <prices>
+            <price size="41" currency="dollar">2248</price>
+            <price size="43" currency="dollar">2102</price>
+            <price size="44" currency="dollar">2037</price>
+        </prices>
+        <img src="https://images.stockx.com/images/Air-Jordan-1-Low-fragment-design-x-Travis-Scott-Product.jpg"/>
+    </sneaker>
+    <sneaker id="3">
+        <name sku="555088-311">
+            <model>Jordan 1</model>
+            <edition height="High">Retro Turbo Greent</edition>
+        </name>
+        <brands type="main">
+            <brand>Nike</brand>
+            <brand>Jordan</brand>
+        </brands>
+        <features>
+            <colors>
+                <color>grey</color>
+                <color>white</color>
+                <color>blue</color>
+                <color>cream</color>
+            </colors>
+            <materials>
+                <material part="Toebox">leather</material>
+                <material part="Midsole">rubber</material>
+                <material part="Outsole">rubber</material>
+                <material part="Quarter">leather</material>
+                <material part="Tongue">nylon</material>
+                <material part="Heel">suede</material>
+            </materials>
+            <Date>
+                <day>15</day>
+                <month>02</month>
+                <year>2019</year>
+            </Date>
+            <limitedEdition>true</limitedEdition>
+            <colaboration>
+                <artist>
+                    <musician>no one</musician>
+                    <designer>no one</designer>
+                </artist>
+                <athlete sport="basketball">no one</athlete>
+                <brand>none</brand>
+            </colaboration>
+            <deadstock>true</deadstock>
+            <supply>105000</supply>
+            <madein country="China"/>
+            <PriceRetail currency="dollar">200</PriceRetail>
+        </features>
+        <prices>
+            <price size="40" currency="dollar">1259</price>
+            <price size="42.5" currency="dollar">678</price>
+            <price size="45" currency="dollar">783</price>
+        </prices>
+        <img src="https://images.stockx.com/images/Air-Jordan-1-Retro-High-Turbo-Green-Product.jpg"/>
+    </sneaker>
+    <sneaker id="4">
+        <name sku="555088-140">
+            <model>Jordan 1</model>
+            <edition height="High">Retro Obsidian UNC</edition>
+        </name>
+        <brands type="main">
+            <brand>Nike</brand>
+            <brand>Jordan</brand>
+        </brands>
+        <features>
+            <colors>
+                <color>light blue</color>
+                <color>dark blue</color>
+                <color>cream</color>
+            </colors>
+            <materials>
+                <material part="Toebox">leather</material>
+                <material part="Midsole">rubber</material>
+                <material part="Outsole">rubber</material>
+                <material part="Quarter">leather</material>
+                <material part="Tongue">nylon</material>
+                <material part="Heel">synthetic leather</material>
+            </materials>
+            <Date>
+                <day>31</day>
+                <month>08</month>
+                <year>2019</year>
+            </Date>
+            <limitedEdition>true</limitedEdition>
+            <colaboration>
+                <artist>
+                    <musician>no one</musician>
+                    <designer>no one</designer>
+                </artist>
+                <athlete sport="basketball">no one</athlete>
+                <brand>none</brand>
+            </colaboration>
+            <deadstock>true</deadstock>
+            <supply>100000</supply>
+            <madein country="China"/>
+            <PriceRetail currency="dollar">200</PriceRetail>
+        </features>
+        <prices>
+            <price size="40" currency="dollar">801</price>
+            <price size="42.5" currency="dollar">596</price>
+            <price size="45" currency="dollar">631</price>
+        </prices>
+        <img src="https://images.stockx.com/images/Air-Jordan-1-Retro-High-UNC-Leather.jpg"/>
+    </sneaker>
+    <sneaker id="5">
+        <name sku="AA3834-101">
+            <model>Jordan 1</model>
+            <edition height="High">Retro Off-White Chicago</edition>
+        </name>
+        <brands type="main">
+            <brand>Nike</brand>
+            <brand>Jordan</brand>
+        </brands>
+        <features>
+            <colors>
+                <color>white</color>
+                <color>red</color>
+                <color>black</color>
+            </colors>
+            <materials>
+                <material part="Toebox">nylon</material>
+                <material part="Midsole">rubber</material>
+                <material part="Outsole">rubber</material>
+                <material part="Quarter">nylon</material>
+                <material part="Tongue">nylon</material>
+                <material part="Heel">suede</material>
+            </materials>
+            <Date>
+                <day>09</day>
+                <month>1</month>
+                <year>2017</year>
+            </Date>
+            <limitedEdition>true</limitedEdition>
+            <colaboration>
+                <artist>
+                    <musician>no one</musician>
+                    <designer>Virgil Abloh</designer>
+                </artist>
+                <athlete sport="basketball">no one</athlete>
+                <brand>Off-White</brand>
+            </colaboration>
+            <deadstock>true</deadstock>
+            <supply>50000</supply>
+            <madein country="China"/>
+            <PriceRetail currency="dollar">200</PriceRetail>
+        </features>
+        <prices>
+            <price size="38" currency="dollar">33857</price>
+            <price size="39" currency="dollar">97860</price>
+            <price size="41" currency="dollar">10492</price>
+            <price size="43" currency="dollar">7907$</price>
+            <price size="45" currency="dollar">9060$</price>
+        </prices>
+        <img src="https://images.stockx.com/images/Air-Jordan-1-Retro-High-Off-White-Chicago-Product.jpg"/>
+    </sneaker>
+</sneakers>

@@ -1,0 +1,576 @@
+
+
+        {
+        "sneakers": [
+        
+            {
+            "sneaker": {
+            "@id": "1",
+            "name": {
+            "@sku": "4280",
+            "model": "Jordan 1",
+            "edition": {
+            "@height": "High",
+            "#text": "OG Chicago"
+            }
+            },
+            "brands": {
+            "@type": "main",
+            "brands": [
+            
+                "Nike"
+                ,
+                "Jordan"
+                
+            ]
+            },
+            "features": {
+            "colors": [
+            
+                "red"
+                ,
+                "white"
+                ,
+                "black"
+                
+            ]
+            ,
+            "materials": [
+            
+            {
+               "Toebox":"leather"
+            },
+            {
+               "Midsole":"rubber"
+            },
+            {
+               "Outsole":"rubber"
+            },
+            {
+               "Quarter":"leather"
+            },
+            {
+               "Tongue":"nylon"
+            },
+            {
+               "Heel":"leather"
+            }
+            ],
+            "Date": {
+            "day": "16",
+            "month": "09",
+            "year": "1985"
+            },
+            
+                    "limitedEdition": "si",
+                
+            "colaboration": {
+            "artist": {
+            "musician": "no one",
+            "designer": "no one"
+            },
+            "athlete": {
+            "@sport": "basketball",
+            "#text": "no one"
+            },
+            "brand": "none"
+            },
+            
+                    "deadstock": "si",
+                
+            "supply": "20000",
+            "madein": {
+            "@country": "China"
+            },
+            "PriceRetail": {
+            "@currency": "dollar",
+            "#text": "200"
+            }
+            },
+            "prices": [
+            
+            {
+                
+            "@size": "40",
+            "@currency": "dollar",
+            "#text": "54600"
+            },
+            {
+                
+            "@size": "42",
+            "@currency": "dollar",
+            "#text": "63964"
+            },
+            {
+                
+            "@size": "42.5",
+            "@currency": "dollar",
+            "#text": "47600"
+            }
+            ],
+            "img": {
+            "@src": "https://images.stockx.com/images/Air-Jordan-1-OG-Chicago-1985-Product.jpg"
+            }
+            }
+            },
+            {
+            "sneaker": {
+            "@id": "2",
+            "name": {
+            "@sku": "DM7866-140",
+            "model": "Jordan 1",
+            "edition": {
+            "@height": "Low",
+            "#text": "Fragment X Travis Scott"
+            }
+            },
+            "brands": {
+            "@type": "main",
+            "brands": [
+            
+                "Nike"
+                ,
+                "Jordan"
+                
+            ]
+            },
+            "features": {
+            "colors": [
+            
+                "black"
+                ,
+                "white"
+                ,
+                "blue"
+                ,
+                "cream"
+                
+            ]
+            ,
+            "materials": [
+            
+            {
+               "Toebox":"leather"
+            },
+            {
+               "Midsole":"rubber"
+            },
+            {
+               "Outsole":"rubber"
+            },
+            {
+               "Quarter":"leather"
+            },
+            {
+               "Tongue":"nylon"
+            },
+            {
+               "Heel":"Synthetic leather"
+            }
+            ],
+            "Date": {
+            "day": "13",
+            "month": "08",
+            "year": "2021"
+            },
+            
+                    "limitedEdition": "si",
+                
+            "colaboration": {
+            "artist": {
+            "musician": "Traviss Scott",
+            "designer": "no one"
+            },
+            "athlete": {
+            "@sport": "basketball",
+            "#text": "no one"
+            },
+            "brand": "Fragment"
+            },
+            
+                    "deadstock": "si",
+                
+            "supply": "70000",
+            "madein": {
+            "@country": "China"
+            },
+            "PriceRetail": {
+            "@currency": "dollar",
+            "#text": "200"
+            }
+            },
+            "prices": [
+            
+            {
+                
+            "@size": "41",
+            "@currency": "dollar",
+            "#text": "2248"
+            },
+            {
+                
+            "@size": "43",
+            "@currency": "dollar",
+            "#text": "2102"
+            },
+            {
+                
+            "@size": "44",
+            "@currency": "dollar",
+            "#text": "2037"
+            }
+            ],
+            "img": {
+            "@src": "https://images.stockx.com/images/Air-Jordan-1-Low-fragment-design-x-Travis-Scott-Product.jpg"
+            }
+            }
+            },
+            {
+            "sneaker": {
+            "@id": "3",
+            "name": {
+            "@sku": "555088-311",
+            "model": "Jordan 1",
+            "edition": {
+            "@height": "High",
+            "#text": "Retro Turbo Green"
+            }
+            },
+            "brands": {
+            "@type": "main",
+            "brands": [
+            
+                "Nike"
+                ,
+                "Jordan"
+                
+            ]
+            },
+            "features": {
+            "colors": [
+            
+                "grey"
+                ,
+                "white"
+                ,
+                "blue"
+                ,
+                "cream"
+                
+            ]
+            ,
+            "materials": [
+            
+            {
+               "Toebox":"leather"
+            },
+            {
+               "Midsole":"rubber"
+            },
+            {
+               "Outsole":"rubber"
+            },
+            {
+               "Quarter":"leather"
+            },
+            {
+               "Tongue":"nylon"
+            },
+            {
+               "Heel":"suede"
+            }
+            ],
+            "Date": {
+            "day": "15",
+            "month": "02",
+            "year": "2019"
+            },
+            
+                    "limitedEdition": "si",
+                
+            "colaboration": {
+            "artist": {
+            "musician": "no one",
+            "designer": "no one"
+            },
+            "athlete": {
+            "@sport": "basketball",
+            "#text": "no one"
+            },
+            "brand": "none"
+            },
+            
+                    "deadstock": "si",
+                
+            "supply": "105000",
+            "madein": {
+            "@country": "China"
+            },
+            "PriceRetail": {
+            "@currency": "dollar",
+            "#text": "200"
+            }
+            },
+            "prices": [
+            
+            {
+                
+            "@size": "40",
+            "@currency": "dollar",
+            "#text": "1259"
+            },
+            {
+                
+            "@size": "42.5",
+            "@currency": "dollar",
+            "#text": "678"
+            },
+            {
+                
+            "@size": "45",
+            "@currency": "dollar",
+            "#text": "783"
+            }
+            ],
+            "img": {
+            "@src": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-Turbo-Green-Product.jpg"
+            }
+            }
+            },
+            {
+            "sneaker": {
+            "@id": "4",
+            "name": {
+            "@sku": "555088-140",
+            "model": "Jordan 1",
+            "edition": {
+            "@height": "High",
+            "#text": "Retro Obsidian UNC"
+            }
+            },
+            "brands": {
+            "@type": "main",
+            "brands": [
+            
+                "Nike"
+                ,
+                "Jordan"
+                
+            ]
+            },
+            "features": {
+            "colors": [
+            
+                "light blue"
+                ,
+                "dark blue"
+                ,
+                "cream"
+                
+            ]
+            ,
+            "materials": [
+            
+            {
+               "Toebox":"leather"
+            },
+            {
+               "Midsole":"rubber"
+            },
+            {
+               "Outsole":"rubber"
+            },
+            {
+               "Quarter":"leather"
+            },
+            {
+               "Tongue":"nylon"
+            },
+            {
+               "Heel":"synthetic leather"
+            }
+            ],
+            "Date": {
+            "day": "31",
+            "month": "08",
+            "year": "2019"
+            },
+            
+                    "limitedEdition": "si",
+                
+            "colaboration": {
+            "artist": {
+            "musician": "no one",
+            "designer": "no one"
+            },
+            "athlete": {
+            "@sport": "basketball",
+            "#text": "no one"
+            },
+            "brand": "none"
+            },
+            
+                    "deadstock": "si",
+                
+            "supply": "100000",
+            "madein": {
+            "@country": "China"
+            },
+            "PriceRetail": {
+            "@currency": "dollar",
+            "#text": "200"
+            }
+            },
+            "prices": [
+            
+            {
+                
+            "@size": "40",
+            "@currency": "dollar",
+            "#text": "801"
+            },
+            {
+                
+            "@size": "42.5",
+            "@currency": "dollar",
+            "#text": "596"
+            },
+            {
+                
+            "@size": "45",
+            "@currency": "dollar",
+            "#text": "631"
+            }
+            ],
+            "img": {
+            "@src": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-UNC-Leather.jpg"
+            }
+            }
+            },
+            {
+            "sneaker": {
+            "@id": "5",
+            "name": {
+            "@sku": "AA3834-101",
+            "model": "Jordan 1",
+            "edition": {
+            "@height": "High",
+            "#text": "Retro Off-White Chicago"
+            }
+            },
+            "brands": {
+            "@type": "main",
+            "brands": [
+            
+                "Nike"
+                ,
+                "Jordan"
+                
+            ]
+            },
+            "features": {
+            "colors": [
+            
+                "white"
+                ,
+                "red"
+                ,
+                "black"
+                
+            ]
+            ,
+            "materials": [
+            
+            {
+               "Toebox":"nylon"
+            },
+            {
+               "Midsole":"rubber"
+            },
+            {
+               "Outsole":"rubber"
+            },
+            {
+               "Quarter":"nylon"
+            },
+            {
+               "Tongue":"nylon"
+            },
+            {
+               "Heel":"suede"
+            }
+            ],
+            "Date": {
+            "day": "09",
+            "month": "1",
+            "year": "2017"
+            },
+            
+                    "limitedEdition": "si",
+                
+            "colaboration": {
+            "artist": {
+            "musician": "no one",
+            "designer": "Virgil Abloh"
+            },
+            "athlete": {
+            "@sport": "basketball",
+            "#text": "no one"
+            },
+            "brand": "Off-White"
+            },
+            
+                    "deadstock": "si",
+                
+            "supply": "50000",
+            "madein": {
+            "@country": "China"
+            },
+            "PriceRetail": {
+            "@currency": "dollar",
+            "#text": "200"
+            }
+            },
+            "prices": [
+            
+            {
+                
+            "@size": "38",
+            "@currency": "dollar",
+            "#text": "33857"
+            },
+            {
+                
+            "@size": "39",
+            "@currency": "dollar",
+            "#text": "97860"
+            },
+            {
+                
+            "@size": "41",
+            "@currency": "dollar",
+            "#text": "10492"
+            },
+            {
+                
+            "@size": "43",
+            "@currency": "dollar",
+            "#text": "7907$"
+            },
+            {
+                
+            "@size": "45",
+            "@currency": "dollar",
+            "#text": "9060$"
+            }
+            ],
+            "img": {
+            "@src": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-Off-White-Chicago-Product.jpg"
+            }
+            }
+            }
+        ]
+        }
+
+
+    

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="sneakers">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="sneaker" maxOccurs="5" minOccurs="5">  <!--I have created the constraint of 5 occurrences-->
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="model"/>
+                    <xs:element name="edition">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute name="height" use="required">  <!-- I have changed to required-->
+                              <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                  <xs:enumeration value="High"/>
+                                  <xs:enumeration value="Low"/>    <!-- I have created enumeration high or low -->
+                                </xs:restriction>
+                              </xs:simpleType>
+                            </xs:attribute>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="sku" use="required"/> <!-- I have changed to required-->
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="brands">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="brand" maxOccurs="unbounded" minOccurs="0">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:enumeration value="Nike"/>
+                          <xs:enumeration value="Jordan"/>
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="type" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="features">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="colors">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="color" type="xs:string" maxOccurs="unbounded" minOccurs="0"/> <!-- I have delete enumeration-->
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="materials">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="material" maxOccurs="6" minOccurs="6">  <!--I have created the constraint of 6 occurrences-->
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute name="part" use="required"> <!-- I have change to required-->
+                                    <xs:simpleType>
+                                      <xs:restriction base="xs:string">
+                                        <xs:enumeration value="Toebox"/>
+                                        <xs:enumeration value="Midsole"/>
+                                        <xs:enumeration value="Outsole"/>
+                                        <xs:enumeration value="Quarter"/>
+                                        <xs:enumeration value="Tongue"/>
+                                        <xs:enumeration value="Heel"/>    <!-- I have created enumeration of material part -->
+                                      </xs:restriction>
+                                    </xs:simpleType>
+                                  </xs:attribute>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Date">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="day">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:integer">
+                                <xs:minInclusive value="1"/>
+                                <xs:maxInclusive value="31"/>
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:element>
+                          <xs:element name="month">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:integer">
+                                <xs:minInclusive value="1"/>
+                                <xs:maxInclusive value="12"/>
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:element>
+                          <xs:element name="year">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:integer">
+                                <xs:minInclusive value="1985"/>
+                                <xs:maxInclusive value="9999"/>   <!-- I have created date constraint -->
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:boolean" name="limitedEdition"/>  <!-- i have change type to boolean-->
+                    <xs:element name="colaboration">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="artist">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="musician" type="xs:string"/>
+                                <xs:element name="designer" type="xs:string"/>  <!-- I have delete enumeration-->
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="athlete">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute type="xs:string" name="sport" use="optional"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="brand"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:boolean" name="deadstock"/>   <!-- i have changed type to boolean-->
+                    <xs:element name="supply" type="xs:positiveInteger"/>  <!-- i have changed type to positiveInteger-->
+                    <xs:element name="madein">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="country" use="required"/> <!-- i have changed use to required-->
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="PriceRetail">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:positiveInteger">  <!-- I have change base to positiveInteger-->
+                            <xs:attribute  name="currency" use="required">
+                              <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                  <xs:enumeration value="dollar"/>
+                                  <xs:enumeration value="euro"/>    <!-- I have created enumeration of currency -->
+                                </xs:restriction>
+                              </xs:simpleType>
+                            </xs:attribute>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="prices">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="price" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="size" use="required"/>
+                            <xs:attribute type="xs:string" name="currency" use="required"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="img">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:string" name="src" use="required"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="id" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
